@@ -43,7 +43,7 @@ mockk = { module = "io.mockk:mockk", version.ref = "mockk_version" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines_version" }
 arch-core = { module = "androidx.arch.core:core-testing", version.ref = "core_testing_version" }
 kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest_version" }
-truth = { module = "com.google.truth:truth", version.ref = "truth_version" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth_version" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
